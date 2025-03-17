@@ -26,4 +26,11 @@ function App() {
       </div>
     );
   }
+
+  return (
+    <div className="App">
+      <Title />
+      <Burger />
+    </div>
+  );
 }
