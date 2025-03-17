@@ -15,4 +15,15 @@ function App() {
       </div>
     );
   }
+
+  function Burger() {
+    const openNav = () => {
+      setWidth('20%');
+    };
+    return (
+      <div id="icon" onClick={openNav}>
+        🍔
+      </div>
+    );
+  }
 }
