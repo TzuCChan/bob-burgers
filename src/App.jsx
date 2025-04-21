@@ -31,6 +31,8 @@ function App() {
     <div className="App">
       <Title />
       <Burger />
+      <Character />
+      <Menu />
     </div>
   );
 }
