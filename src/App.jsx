@@ -39,6 +39,22 @@ function App() {
     const closeNav = () => {
       setWidth('0px');
     };
+
+    function getCharacter(event) {
+      let bobCharacters;
+      fetch(
+        'https://bobsburgers-api.herokuapp.com/characters/[1,7,26,8,13,3,20,11,39,63,18,10,21,207]'
+      )
+        .then((response) => response.json())
+        .then((data) => {
+          bobCharacters = data;
+
+          let character = bobCharacters.find(
+            (obj) => obj.name.replaceAll('"', '') === event.target.textContent
+          );
+          setImage(character.image);
+        });
+    }
   }
 
   return (
