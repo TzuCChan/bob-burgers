@@ -27,6 +27,14 @@ function App() {
     );
   }
 
+  function Character() {
+    return (
+      <div class="container">
+        <img id="mainImg" src={image} alt="character" />
+      </div>
+    );
+  }
+
   return (
     <div className="App">
       <Title />
