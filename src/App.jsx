@@ -35,6 +35,12 @@ function App() {
     );
   }
 
+  function Menu() {
+    const closeNav = () => {
+      setWidth('0px');
+    };
+  }
+
   return (
     <div className="App">
       <Title />
