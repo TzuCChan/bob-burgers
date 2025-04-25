@@ -55,6 +55,17 @@ function App() {
           setImage(character.image);
         });
     }
+
+    return (
+      <div id="mySidenav" class="sidenav" style={{ width: width }}>
+        <a href="javascript:void(0)" class="closebtn" onClick={closeNav}>
+          &times;
+        </a>
+        <a class="character" href="#" onClick={getCharacter}>
+          Dottie Minerva
+        </a>
+      </div>
+    );
   }
 
   return (
