@@ -70,6 +70,9 @@ function App() {
         <a class="character" href="#" onClick={getCharacter}>
           Alex Papasian
         </a>
+        <a class="character" href="#" onClick={getCharacter}>
+          Alfred
+        </a>
       </div>
     );
   }
