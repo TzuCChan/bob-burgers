@@ -100,6 +100,9 @@ function App() {
         <a class="character" href="#" onClick={getCharacter}>
           Captain Flarty
         </a>
+        <a class="character" href="#" onClick={getCharacter}>
+          Ice Pick
+        </a>
       </div>
     );
   }
