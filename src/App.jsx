@@ -94,6 +94,9 @@ function App() {
         <a class="character" href="#" onClick={getCharacter}>
           Asch
         </a>
+        <a class="character" href="#" onClick={getCharacter}>
+          BeefGeek
+        </a>
       </div>
     );
   }
