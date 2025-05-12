@@ -97,6 +97,9 @@ function App() {
         <a class="character" href="#" onClick={getCharacter}>
           BeefGeek
         </a>
+        <a class="character" href="#" onClick={getCharacter}>
+          Captain Flarty
+        </a>
       </div>
     );
   }
